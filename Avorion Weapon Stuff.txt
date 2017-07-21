@@ -1,0 +1,49 @@
+NOTE: There are more things that you can do to a turret. However, I do not know them all.
+
+
+
+
+
+
+
+
+
+Stats of turret
+
+weapon["seeker"] (Boolean)			If the rocket launcher is the weaponType, this will make the rockets follow their target/whatever you have selected
+weapon.damage					Base damage
+weapon.fireRate					How fast you can fire/burst fire
+weapon.reach					How far away you can fire (Only governs the autoclock circles)
+weapon.recoil					Recoil of the turret
+weapon.hullDamageMultiplicator			Multiplies the base damage to another ship's hull
+weapon.shieldDamageMultiplicator		Multiplies the base damage to another ship's shield
+weapon.blockPenetration				How many blocks it will deal base damage to in a line
+weapon.accuracy					The accuracy when firing (1 = 100%, 0.5 = 50%)
+weapon.psize					The projectile's size
+
+(Beam weapons)
+weapon.blength					Reach of a beam weapon
+
+(Projectile weapons)
+weapon.pmaximumTime				How much time it will take for the projectile to get to its target
+weapon.pvelocity				How fast the projectile will move	(pmaximumTime * pvelocity = weapon.reach)
+
+
+
+Properties of turret
+
+T.automatic (Boolean)				Allows the weapon to automatically turn to the selected ship
+T.size						The size of the weapon
+T.baseEnergyPerSecond				Just make it like... 10000000 or something lol
+T.energyIncreasePerSecond			How much energy the weapon will take each second
+T.maxHeat					The amount of heat the weapon can take before overheating
+T.coolingRate					How fast the weapon will cool
+T.heatPerShot					How much heat will come out of firing
+
+
+
+WeaponTypes
+
+(Beam weapons: TeslaGun, Laser, ForceGun, RepairBeam)
+(Projectile weapons: Cannon, ChainGun, RailGun, Bolter, RocketLauncher)
+
